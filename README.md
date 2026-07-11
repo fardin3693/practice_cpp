@@ -16,7 +16,7 @@ g++ -o program_name filename.cpp
 
 Example for `main.cpp`:
 ```bash
-g++ -o main main.cpp
+g++ main.cpp
 ./main
 ```
 
