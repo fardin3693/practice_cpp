@@ -35,3 +35,6 @@ int main() {
 
   return 0;
 }
+
+
+// typedef are good, but the usign keyword is best. i would rather prefer the 'using' keyword. Both do the same thing.
