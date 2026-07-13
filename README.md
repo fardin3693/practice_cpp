@@ -23,6 +23,9 @@ g++ main.cpp
 ## 📂 Project Structure
 - `main.cpp` - Main entry point and basic tests.
 - `variable.cpp` - Practice with C++ variables and data types.
+- `const.cpp` - Practice with constant variables.
+- `namespace.cpp` - Practice with namespaces.
+- `typedef_type-aliases.cpp` - Practice with typedef and type aliases.
 
 ## 🛠️ Tools Used
 - Language: C++
