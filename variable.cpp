@@ -49,7 +49,7 @@ int main() {
   std::cout << temparature << std::endl;
   // pring string along with variable.
   std::cout << "Hello" << " " << name << std::endl;
-  std::cout << "You are " << age << "years old" << std::endl;
+  std::cout << "You are " << age << " " << "years old" << std::endl;
 
   return 0;
 }
