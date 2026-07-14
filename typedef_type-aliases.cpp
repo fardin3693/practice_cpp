@@ -28,6 +28,7 @@ int main() {
   number_t age = 15;
 
   int roll = 45;
+  int roll1 = 34;
 
   cout << age << endl;
   cout << firstname << endl;
