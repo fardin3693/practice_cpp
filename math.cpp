@@ -21,7 +21,7 @@ int main() {
   abso = abs(-3);
 
   cout << "rounded PI: " << round(pi) << endl; // round to the nearest int
-  cout << "PI round up: " << ceil(pi) << endl;  // always round up
+  cout << "PI round up: " << ceil(pi) << endl; // always round up to the nearest integer.
   cout << "PI round down: " << floor(pi) << endl; // like python floor division, round them down
   cout << "max: " << z << endl;
   cout << "min: " << e << endl;
