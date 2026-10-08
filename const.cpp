@@ -16,5 +16,5 @@ int main() {
   return 0;
 }
 
-
-// const keyword is used to maintain a certain value to keep it constant throught the entier project.
+// const keyword is used to maintain a certain value to keep it constant
+// throught the entier project.
