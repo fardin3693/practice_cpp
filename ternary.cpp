@@ -1,3 +1,4 @@
+// You can call them as the short hand if-else
 // ternary operator is ?: replacement to an if/else statement
 // condition ? expression : expression2;
 // condition ? expression1 : codition2 ? expression2 : defaultStatement
