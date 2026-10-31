@@ -3,7 +3,6 @@
 //
 
 #include <iostream>
-
 using std::cout;
 using std::endl;
 using std::string;
@@ -45,16 +44,16 @@ int main() {
   // cout << "hello: " << name << endl;
 
   //=======================================================
-  // append() method >> add something to the last of the string : usaual for email
-  // handling
+  // append() method >> add something to the last of the string : usaual for
+  // email handling
 
   // name.append(" Islam");
 
   // cout << "Hello: " << name << endl;
 
   // =======================================================
-  // at(index) method >> to see the charecter of a string on a index : this shows an
-  // error if there is nothing at that index
+  // at(index) method >> to see the charecter of a string on a index : this
+  // shows an error if there is nothing at that index
 
   // cout << name.at(2) << endl;
 
@@ -64,14 +63,16 @@ int main() {
   // cout << name.insert(2, "LOL") << endl;
 
   //=========================================================
-  // find(' ') >> takes input of "char" retruns the index within the str : this is case sensitive
+  // find(' ') >> takes input of "char" retruns the index within the str : this
+  // is case sensitive
 
   // cout << name.find('f') << endl;
 
   //==========================================================
-  // erase(beggenin_indx, end_indx) >> erase the portion between the indx : end_indx doesn't count.
+  // erase(beggenin_indx, end_indx) >> erase the portion between the indx :
+  // end_indx doesn't count.
 
-  cout << name.erase(0,3) << endl;
-  
+  cout << name.erase(0, 3) << endl;
+
   return 0;
 }
