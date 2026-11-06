@@ -8,5 +8,6 @@ int main() {
       */
   std::cout << "Hello world!" << std::endl;
   std::cout << "its's realy good" << std::endl;
+  std::cout << "But i have to learn DSA in c++ and win a competetion. No time for enjoyment" << std::endl;
   return 0;
 }
