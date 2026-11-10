@@ -5,15 +5,15 @@
 
 using namespace std;
 
-int main(){
-    int number;
+int main() {
+  int number;
 
-    do{
-        cout << "Enter a positive number: ";
-        cin >> number;
-    } while (number < 0);
-    
-    cout << "this is: " << number<< '\n';
+  do {
+    cout << "Enter a positive number: ";
+    cin >> number;
+  } while (number < 0);
 
-    return 0;
+  cout << "this is: " << number << '\n';
+
+  return 0;
 }
