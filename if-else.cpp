@@ -21,5 +21,12 @@ int main() {
   } else {
     cout << "Bro, i think you entered something wrong" << endl;
   }
+
+  float grade = 4.5;
+  if (grade > 1) {
+    cout << "You have a good result.";
+  } else {
+    cout << "You do not have a good result. better luck next time.";
+  };
   return 0;
 }
