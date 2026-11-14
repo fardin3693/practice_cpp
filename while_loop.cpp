@@ -4,17 +4,28 @@
 
 using namespace std;
 
-int main(){
+int main() {
 
-    string name;
+  string name;
 
-    while (name.empty()){ //if (name.empty()){}
-        cout << "Enter your name: ";
-        getline(cin, name);
-    }
+  while (name.empty()) { // if (name.empty()){}
+    cout << "Enter your name: ";
+    getline(cin, name);
+  }
 
-    cout << "hello " << name << '\n';
+  cout << "hello " << name << '\n';
+
+  //===========================================
+  // i can also use this for the cin input method i cpp
+
+  int number;
+  int sum = 0;
+  while (cin >> number) {
+    sum = number + sum;
+
+  }
+  cout << sum << '\n';
 
 
-    return 0;
+  return 0;
 }
